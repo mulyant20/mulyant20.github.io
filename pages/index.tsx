@@ -9,7 +9,8 @@ export default function Home() {
       <div className='mt-[208px] h-fit relative mb-32'>
         <Label text='work in progress' classname='mb-[8px]'/>
         <h1 className='max-w-[740px] text-[48px] text-[#BAB8B8] font-medium leading-[72px] mb-[24px]'>
-          <span className='text-white'>Hi, i'm Mulyana. </span>A Novice Frontend dev and Student at <a href='https://uad.ac.id/en/' target='_blank' className='hover:text-white'>UAD</a>
+          <span className='text-white'>Hi, i&apos;m Mulyana. </span>A Novice Frontend dev and Student at 
+          <a href='https://uad.ac.id/en/' target='_blank' className='hover:text-white' rel="noreferrer">UAD</a>
         </h1>
         <p className='text-[#DFDFDF] mb-[18px]'>
           Here are a few technologies I've been working with recently
@@ -26,7 +27,7 @@ export default function Home() {
           <ul className='flex gap-4'>
             {contacts.map((contact, index) =>
               <li key={index} className='text-white/40 hover:text-white cursor-pointer text-xl'>
-                <a href={contact.url} target="_blank">{contact.img}</a>
+                <a href={contact.url} target="_blank" rel="noreferrer">{contact.img}</a>
               </li>
             )}
           </ul>
