@@ -13,7 +13,7 @@ export default function Home() {
           <a href='https://uad.ac.id/en/' target='_blank' className='hover:text-white' rel="noreferrer">UAD</a>
         </h1>
         <p className='text-[#DFDFDF] mb-[18px]'>
-          Here are a few technologies I've been working with recently
+          Here are a few technologies I&apos;ve been working with recently
         </p>
 
         <ul className='flex gap-[1rem] mb-[48px]'>
